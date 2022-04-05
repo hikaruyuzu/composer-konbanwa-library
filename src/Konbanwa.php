@@ -7,7 +7,7 @@ class Konbanwa {
     {
     }
 
-    function Konbanwa(string $yourname) :string {
+    function Konbanwa(string $yourname = "Guest") :string {
         return  "Konbanwa {$yourname} my name is {$this->name}" . PHP_EOL;
     }
 }
